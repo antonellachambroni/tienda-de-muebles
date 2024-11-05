@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    background-color: $background-color;
+    padding: 20px 0;
+    clear: both;
+  
+    a {
+      color: $tertiary-color;
+      text-decoration: none;
+  
+      &:hover {
+        color: $secondary-color;
+        text-decoration: underline;
+      }
+    }
+  }
+  

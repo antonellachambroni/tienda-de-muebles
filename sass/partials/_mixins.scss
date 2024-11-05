@@ -1,0 +1,25 @@
+
+@mixin banner-style($background-image) {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: $text-shadow;
+    font-family: $font-family;
+    color: $background-color;
+    padding: 150px 0;
+    background-image: url($background-image);
+  }
+  
+  .banner-nosotros {
+    @include banner-style('../medios/nosotros.png');
+  }
+  
+  .banner-dormitorio {
+    @include banner-style('../medios/muebles-dormitorio.png');
+  }
+  
+  .banner-cocina {
+    @include banner-style('../medios/muebles-cocina.png');
+  }
+  

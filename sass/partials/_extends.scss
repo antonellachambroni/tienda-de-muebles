@@ -1,0 +1,11 @@
+%centered-text {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .encabezado-minimalista, .encabezado-banner, .encabezado-quienes-somos, .encabezado-productos, .encabezado-cocina {
+    @extend %centered-text;
+    margin-bottom: 20px;
+  }
+  
+  
